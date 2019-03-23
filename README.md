@@ -23,3 +23,30 @@
 1. 有序列表
 2. 有序列表2
 5. 有序有序有序
+
+姓名|职业|年龄
+-:-:-:
+张三|搬砖|35
+里斯|瓦工|50
+玛丽|电工|30岁
+
+`echo("Hello World!");`
+
+```
+  function fun(){
+    echo "这是一段代码";
+  }
+
+  fun();
+```
+
+
+```flow
+st=>start: 开始
+op=>operation: My Operation
+cond=>condition: Yes or No?
+e=>end
+st->op->cond
+cond(yes)->e
+cond(no)->op
+&```
