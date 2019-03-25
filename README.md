@@ -43,7 +43,7 @@
   fun();
 ```
 
-
+```
 flow
 st=>start: 开始
 op=>operation: My Operation
@@ -52,3 +52,4 @@ e=>end
 st->op->cond
 cond(yes)->e
 cond(no)->op
+```
