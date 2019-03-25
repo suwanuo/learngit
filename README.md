@@ -29,9 +29,9 @@
 
 |姓名|职业|年龄|
 |-:|-:|:-:|
-|张三|搬砖|35|
-|里斯|瓦工|50|
-|玛丽|电工|30岁|
+|张三|游手好闲不干活|35|
+|瓦里斯|瓦工|50|
+|玛格丽特|水电工|30岁|
 
 `echo("Hello World!");`
 
@@ -44,7 +44,7 @@
 ```
 
 
-```flow
+flow
 st=>start: 开始
 op=>operation: My Operation
 cond=>condition: Yes or No?
@@ -52,4 +52,4 @@ e=>end
 st->op->cond
 cond(yes)->e
 cond(no)->op
-&```
+&
